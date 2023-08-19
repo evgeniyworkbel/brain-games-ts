@@ -2,8 +2,9 @@
   "name": "brain-games-ts",
   "packageManager": "yarn@3.6.1",
   "main": "./src/index.ts",
-  "type":"module",
+  "type": "module",
   "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
     "@types/node": "^20.5.0",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",

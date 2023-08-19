@@ -167,6 +167,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/node18@npm:^18.2.0":
+  version: 18.2.0
+  resolution: "@tsconfig/node18@npm:18.2.0"
+  checksum: 04263c931db2f69f5bd421755bae83df5623701bab3ce086fad4a775c14f523d864ef2ca3282fc1f866895914d474fa3871809647dd089259aa66631c1e47a76
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.12":
   version: 7.0.12
   resolution: "@types/json-schema@npm:7.0.12"
@@ -414,6 +421,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "brain-games-ts@workspace:."
   dependencies:
+    "@tsconfig/node18": ^18.2.0
     "@types/node": ^20.5.0
     "@typescript-eslint/eslint-plugin": ^6.4.0
     "@typescript-eslint/parser": ^6.4.0
