@@ -1,2 +1,2 @@
 run:
-	yarn dlx ts-node ./src/index.ts
+	yarn ts-node ./src/index.ts
