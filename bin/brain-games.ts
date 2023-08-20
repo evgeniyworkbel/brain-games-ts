@@ -1,4 +1,4 @@
 #!/usr/bin/env ts-node
-import greet from "../src/index.js";
+import { app } from '../src/cli.js';
 
-greet();
+app();
