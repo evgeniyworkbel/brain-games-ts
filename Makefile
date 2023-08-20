@@ -8,4 +8,4 @@ link:
 	sudo npm link
 
 brain-games:
-	npx ts-node bin/brain-games.ts
+	npx ts-node --esm bin/brain-games.ts
