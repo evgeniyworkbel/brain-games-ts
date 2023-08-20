@@ -6,7 +6,8 @@
   "main": "./src/cli.ts",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.ts"
+    "brain-games": "bin/brain-games.ts",
+    "brain-even": "bin/brain-even.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
