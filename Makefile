@@ -1,9 +1,6 @@
 install:
 	npm ci
 
-run:
-	npx ts-node ./src/index.ts
-
 publish:
 	npm publish --dry-run
 
