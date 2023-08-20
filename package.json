@@ -5,6 +5,7 @@
   "bin": {
     "brain-games": "./bin/brain-games.ts"
   },
+  "type": "module",
   "devDependencies": {
     "@tsconfig/node18": "^18.2.0",
     "@types/node": "^20.5.0",
