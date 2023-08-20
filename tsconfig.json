@@ -3,5 +3,8 @@
     "compilerOptions": {
         "strictNullChecks": true,
     },
-    "include": ["src/**/*"]
+    "include": [
+        "./src/**/*",
+        "./bin/**/*",
+    ]
 }
