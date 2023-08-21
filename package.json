@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "author": "Evgeniy Samuta",
-  "main": "./src/cli.ts",
+  "main": "./src/index.ts",
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.ts",
