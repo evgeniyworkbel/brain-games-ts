@@ -1,0 +1,1 @@
+export const MAX_NUMBER_FOR_RANDOM_GEN = 100;
