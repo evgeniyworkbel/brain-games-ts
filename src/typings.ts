@@ -6,4 +6,5 @@ export type Task = {
     question: string,
     expectedResult: string,
 };
+
 export type GetTask = () => Task;
