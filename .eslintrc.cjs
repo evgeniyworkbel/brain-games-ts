@@ -1,6 +1,7 @@
 /* eslint-env node */
 module.exports = {
     extends: [
+      'airbnb',
       'eslint:recommended',
       'plugin:import/recommended',
       'plugin:@typescript-eslint/recommended-type-checked',
@@ -13,6 +14,9 @@ module.exports = {
     },
     root: true,
     rules: {
+      "indent": ["error", 4, { "SwitchCase": 1 }],
+      "no-console": "off",
+      "import/extensions": "off",
       "import/no-unresolved": "off",
       "import/order": ["error", {
         "groups": [
@@ -24,6 +28,7 @@ module.exports = {
           "unknown"
         ],
         "warnOnUnassignedImports": true,
-      }]    
+      }],
+      "import/prefer-default-export": "off",
     },
 };
