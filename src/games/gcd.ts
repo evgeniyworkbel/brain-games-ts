@@ -28,4 +28,4 @@ function gcdGame(): void {
     gamebase(descriptions.gcd, getTask);
 }
 
-export default gcdGame;
+export { gcdGame };

@@ -32,4 +32,4 @@ function calcGame(): void {
     gamebase(descriptions.calc, getTask);
 }
 
-export default calcGame;
+export { calcGame };

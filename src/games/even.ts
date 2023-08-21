@@ -18,4 +18,4 @@ function evenGame(): void {
     gamebase(descriptions.even, getTask);
 }
 
-export default evenGame;
+export { evenGame };
