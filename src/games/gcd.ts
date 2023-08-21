@@ -12,7 +12,7 @@ const calculateGcd = (num1: number, num2: number): number => {
     }
 
     return calculateGcd(num2, remainder);
-  };
+};
 
 function getTask(): Task {
     const number1 = getRandomInteger(MAX_NUMBER_FOR_RANDOM_GEN);
