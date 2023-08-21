@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { GetTask } from './typings.js';
+import type { GetTask } from './typings.js';
 
 function runGame(username: string, getTask: GetTask): string {
     let currentRound: number = 1;

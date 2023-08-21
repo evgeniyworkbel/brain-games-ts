@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import runGame from './engine.js';
-import { GetTask } from './typings.js';
+import type { GetTask } from './typings.js';
 
 function gamebase(description: string, getTask: GetTask): void {
     console.log('Welcome to the Brain Games!');
