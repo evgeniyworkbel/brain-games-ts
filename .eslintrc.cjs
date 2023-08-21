@@ -15,6 +15,7 @@ module.exports = {
     root: true,
     rules: {
       "indent": ["error", 4, { "SwitchCase": 1 }],
+      "object-curly-newline": ["error", { "minProperties": 9, "consistent": true }],
       "no-console": "off",
       "import/extensions": "off",
       "import/no-unresolved": "off",
