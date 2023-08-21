@@ -18,3 +18,6 @@ brain-calc:
 
 brain-gcd:
 	npx ts-node --esm bin/brain-gcd.ts
+
+brain-progression:
+	npx ts-node --esm bin/brain-progression.ts
