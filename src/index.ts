@@ -8,13 +8,13 @@ function gamebase(description: string, getTask: GetTask): void {
     console.log(`Hello, ${username}!`);
     console.log(description);
 
-    const result = runGame(username, getTask);
+    const status = runGame(username, getTask);
 
-    if (result === 'succeed') {
+    if (status === 'succeed') {
         console.log(`Congratulations, ${username}!`);
     }
 
-    if (result === 'failed') {
+    if (status === 'failed') {
         return undefined;
     } 
 }
