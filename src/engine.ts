@@ -9,7 +9,7 @@ function runGame(username: string, getTask: GetTask): string {
         const [question, computedValue] = getTask();
 
         console.log(`Question: ${question}`);
-        const userAnswer: string = readlineSync.question('Your answer: ');
+        const userAnswer = readlineSync.question('Your answer: ');
 
         if (userAnswer === computedValue) {
             console.log('Correct!');
