@@ -8,9 +8,15 @@ function gamebase(description: string, getTask: GetTask): void {
     console.log(`Hello, ${username}!`);
     console.log(description);
 
-    runGame(username, getTask);
+    const result = runGame(username, getTask);
 
-    console.log(`Congratulations, ${username}!`);
+    if (result === 'succeed') {
+        console.log(`Congratulations, ${username}!`);
+    }
+
+    if (result === 'failed') {
+        return undefined;
+    } 
 }
 
 export default gamebase;

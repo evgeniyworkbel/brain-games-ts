@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import { GetTask } from './typings.js';
 
-function runGame(username: string, getTask: GetTask): void {
+function runGame(username: string, getTask: GetTask): string {
     let currentRound: number = 1;
     const roundsCount: number = 3;
 
@@ -18,11 +18,13 @@ function runGame(username: string, getTask: GetTask): void {
             console.log(`Let's try again, ${username}!`);
 
             // Exit game immediately
-            return undefined;
+            return 'failed';
         }
 
         currentRound += 1;
     }
+
+    return 'succeed';
 }
 
 export default runGame;
