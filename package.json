@@ -6,7 +6,6 @@
   "main": "./src/index.ts",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.ts",
     "brain-even": "bin/brain-even.ts",
     "brain-calc": "bin/brain-calc.ts"
   },

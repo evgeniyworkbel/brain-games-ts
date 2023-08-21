@@ -7,9 +7,6 @@ publish:
 link:
 	sudo npm link
 
-brain-games:
-	npx ts-node --esm bin/brain-games.ts
-
 brain-even:
 	npx ts-node --esm bin/brain-even.ts
 
