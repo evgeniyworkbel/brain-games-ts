@@ -9,9 +9,9 @@ const isEven = (num: number): boolean => num % 2 === 0;
 function getTask(): Task {
     const number = getRandomInteger(MAX_NUMBER_FOR_RANDOM_GEN);
     const question = `${number}`;
-    const result = isEven(number) ? 'yes' : 'no';
+    const expectedResult = isEven(number) ? 'yes' : 'no';
 
-    return [question, result];
+    return { question, expectedResult };
 }
 
 function evenGame(): void {

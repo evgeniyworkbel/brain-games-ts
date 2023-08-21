@@ -6,15 +6,15 @@ function runGame(username: string, getTask: GetTask): string {
     const roundsCount: number = 3;
 
     while(currentRound <= roundsCount) {
-        const [question, computedValue] = getTask();
+        const { question, expectedResult } = getTask();
 
         console.log(`Question: ${question}`);
         const userAnswer = readlineSync.question('Your answer: ');
 
-        if (userAnswer === computedValue) {
+        if (userAnswer === expectedResult) {
             console.log('Correct!');
         } else {
-            console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${computedValue}"`);
+            console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${expectedResult}"`);
             console.log(`Let's try again, ${username}!`);
 
             // Exit game immediately

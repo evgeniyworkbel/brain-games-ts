@@ -2,5 +2,8 @@ export type Descriptions = {
     even: string;
 };
 
-export type Task = string[];
-export type GetTask = () => string[];
+export type Task = {
+    question: string,
+    expectedResult: string,
+};
+export type GetTask = () => Task;
