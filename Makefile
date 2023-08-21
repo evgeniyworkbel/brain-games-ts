@@ -12,3 +12,6 @@ brain-even:
 
 brain-calc:
 	npx ts-node --esm bin/brain-calc.ts
+
+brain-gcd:
+	npx ts-node --esm bin/brain-gcd.ts
