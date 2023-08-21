@@ -14,9 +14,7 @@ function gamebase(description: string, getTask: GetTask): void {
         console.log(`Congratulations, ${username}!`);
     }
 
-    if (status === 'failed') {
-        return undefined;
-    } 
+    return undefined;
 }
 
 export default gamebase;
