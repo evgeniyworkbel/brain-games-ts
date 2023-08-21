@@ -5,7 +5,7 @@ function runGame(username: string, getTask: GetTask): string {
     let currentRound: number = 1;
     const roundsCount: number = 3;
 
-    while(currentRound <= roundsCount) {
+    while (currentRound <= roundsCount) {
         const { question, expectedResult } = getTask();
 
         console.log(`Question: ${question}`);
