@@ -11,4 +11,4 @@ module.exports = {
       tsconfigRootDir: __dirname,
     },
     root: true,
-  };
+};
