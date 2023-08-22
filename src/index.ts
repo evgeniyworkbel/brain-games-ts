@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
 import runGame from './engine.js';
-import type { GetTask } from './typings.js';
+import type { GetTaskFn } from './typings.js';
 
-function gamebase(description: string, getTask: GetTask): void {
+function gamebase(description: string, getTask: GetTaskFn): void {
     console.log('Welcome to the Brain Games!');
     const username = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${username}!`);

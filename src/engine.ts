@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
-import type { GetTask } from './typings.js';
+import type { GetTaskFn } from './typings.js';
 
-function runGame(username: string, getTask: GetTask): string {
+function runGame(username: string, getTask: GetTaskFn): string {
     let currentRound: number = 1;
     const roundsCount: number = 3;
 

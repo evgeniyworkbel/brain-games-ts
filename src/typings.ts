@@ -3,7 +3,7 @@ export type Task = {
     expectedResult: string,
 };
 
-export type GetTask = () => Task;
+export type GetTaskFn = () => Task;
 
 /* For brain-calc */
 export type Sign = '+' | '-' | '*' | '%';
