@@ -9,7 +9,8 @@
     "brain-even": "bin/brain-even.ts",
     "brain-calc": "bin/brain-calc.ts",
     "brain-gcd": "bin/brain-gcd.ts",
-    "brain-progression": "bin/brain-progression.ts"
+    "brain-progression": "bin/brain-progression.ts",
+    "brain-prime": "bin/brain-prime.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
