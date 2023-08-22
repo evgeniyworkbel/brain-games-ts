@@ -21,3 +21,6 @@ brain-gcd:
 
 brain-progression:
 	npx ts-node --esm bin/brain-progression.ts
+
+brain-prime:
+	npx ts-node --esm bin/brain-prime.ts
