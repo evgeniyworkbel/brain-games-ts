@@ -1,3 +1,5 @@
 export const MAX_NUMBER_FOR_RANDOM_GEN = 100;
 export const MAX_NUMBER_COUNT_IN_PROGRESSION = 10;
 export const MAX_STEP_IN_PROGRESSION = 7;
+
+export const MIN_PRIME_NUMBER = 2;
