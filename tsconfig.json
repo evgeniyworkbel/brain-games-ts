@@ -6,6 +6,7 @@
     },
     "compilerOptions": {
         "module": "ESNext",
+        "noImplicitAny": true,
         "strictNullChecks": true,
         "removeComments": true,
     },
