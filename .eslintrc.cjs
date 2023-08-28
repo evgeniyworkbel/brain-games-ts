@@ -32,5 +32,6 @@ module.exports = {
         "warnOnUnassignedImports": true,
       }],
       "import/prefer-default-export": "off",
+      "@typescript-eslint/explicit-function-return-type": "error",
     },
 };
